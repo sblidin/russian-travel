@@ -1,0 +1,9 @@
+.cover__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  z-index: 1;
+  box-sizing: border-box;
+}
