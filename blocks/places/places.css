@@ -1,10 +1,17 @@
 .places {
-    margin: 92px auto;
-    min-height: 3392px;
-     width: 77%;
-     object-fit: contain;
+  margin: 92px auto;
+  max-width: 1184px;
+  width: 100%;
+  object-fit: contain;
+  display: grid;
+  row-gap: 80px;
 }
-@media screen and (max-width: 1024px) {
-    .places {
-      width: 90%;
-    }}
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    row-gap: 72px;
+}}
+@media screen and (max-width: 425px) {
+  .places {
+    row-gap: 48px;
+}}

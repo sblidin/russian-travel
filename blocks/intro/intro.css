@@ -7,24 +7,15 @@
     flex-direction: column;
     justify-content: center;
 }
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .intro {
     margin: auto;
     margin-left: 48px;
     margin-top: 114px;
-    }
-  }
-@media (min-width: 768px) and (max-width: 1024px) {
-  .intro {
-    max-width: 720px; 
-    margin: auto;
-    margin-top: 110px;
-    }
-  } 
+  }} 
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 90%; 
     margin: auto;
     margin-top:20%;
-    }
-  }
+}}

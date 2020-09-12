@@ -1,0 +1,9 @@
+.header__lang-link {
+color: white;
+background-color: #2A2C2F;
+text-decoration: none;
+}
+.header__lang-link:hover {
+    color: #FFFFFF;
+  opacity: 0.8;  
+}

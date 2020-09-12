@@ -1,8 +1,8 @@
 
-.page {
-    max-width: 2450px;
+.root {
     margin: 0 auto;
-    font-family: 'Inter', 'Areal', sans-serif;
+    max-width: 1184px;
+    font-family: 'Inter', Arial, sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -11,4 +11,19 @@
     background-color: #2A2C2F;
     color: white;
   }
-  
+  @media screen and (max-width: 1024px) {
+    .root {
+      max-width: 1024px;
+  }}
+  @media screen and (max-width: 768px) {
+    .root {
+      max-width: 768px;
+  }}
+  @media screen and (max-width: 425px) {
+    .root {
+      max-width: 425px;
+  }}
+  @media screen and (max-width: 320px) {
+    .root {
+      max-width: 320px;
+  }}

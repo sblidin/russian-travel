@@ -3,12 +3,12 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 106%; 
-  margin:0 auto;
-  padding-top: 245px;
+  margin: 0 0 32px;
   text-align: center;
   color: white;
+  z-index: 1;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .cover__title {
     font-size: 32px;
     max-width: 288px;
