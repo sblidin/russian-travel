@@ -1,12 +1,10 @@
 .place__text {
-  width: 100%;
   grid-area: text;
   display: flex;
   flex-direction: column;
   margin: 0; 
   font-size: 18px;
-  line-height: 163%;
-  padding-top: 48px;
+  line-height: 163%;;
   object-fit: contain; 
   align-self: start; 
 }
@@ -15,7 +13,8 @@
     font-size: 16px;
     line-height: 163%;
 }}
-@media screen and (max-width: 425px) {
-  .place__text{ 
-    padding-top: 32px;
+@media screen and (max-width: 320px) {
+  .place__text{
+    margin: 0;
+    margin-top: 16px;
 }}

@@ -1,17 +1,5 @@
 .place__image {
   width: 100%;
-  padding-top: 48px;
   grid-area: image;
   box-sizing: border-box;
 }
-@media screen and (max-width: 768px) {
-  .place__image {
-    width: 340px;
-    height: 340px;
-}} 
-@media screen and (max-width: 425px) {
-  .place__image {
-    padding-top: 32px;
-    max-width: 320px;
-    min-height: 320px;
-  }}        

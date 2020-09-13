@@ -1,13 +1,13 @@
 .header {
-    width: 92%;
-    margin: auto;
-    padding-top: 28px;
+    width: calc(100% - 48px*2);
+    margin: 0 auto;
+    min-height: 52px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 @media screen and (max-width: 768px) {
-    .header {
-      width: 90%;
-      padding-top: 16px;
-      }}
+  .header {
+    width: calc(100% - 24px*2);
+}}

@@ -1,20 +1,13 @@
 .footer__link {
+ margin: 0 18px 0 0;
  color: white;
- text-decoration: none; 
- font-size: 16px;
- line-height: 112%;
- margin-left: 0;
- margin-right: 18px;
- list-style-type: none;
+ text-decoration: none;
 }
 .footer__link:hover {
   color: #FFFFFF;
   opacity: 0.8;  
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 540px) {
   .footer__link {
-    font-size: 24px;
-    line-height: 100%;
-    margin-top: 32px;
-    justify-content: flex-start;
+    margin-top: 0 0 32px 0;
 }}

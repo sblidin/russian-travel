@@ -6,30 +6,25 @@
   margin: auto;
   text-align: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
   .lead__title {
-    width: 90%;
-    font-size: 85px;
-    line-height: 110%;
-}}
-@media screen and (max-width: 650px) {
+    font-size: 70px;
+  }}
+@media screen and (max-width: 540px) {
   .lead__title {
-    width: 90%;
-    font-size: 65px;
-}}
-@media screen and (max-width: 550px) {
-  .lead__title {
-    width: 90%;
-    font-size: 60px;
+    font-size: 52px;
 }}
 @media screen and (max-width: 425px) {
   .lead__title {
-    width: 90%;
     font-size: 45px;
+}}
+@media screen and (max-width: 360px) {
+  .lead__title {
+    font-size: 41px;
 }}
 @media screen and (max-width: 320px) {
   .lead__title {
-    width: 90%;
+    min-width: 288px;
     font-size: 40px;
 }}
   
