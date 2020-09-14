@@ -29,7 +29,6 @@
  @media screen and (max-width: 1024px) {
     .cover__link {
       min-height: 640px;
-    
     }} 
   @media screen and (max-width: 768px) {
     .cover__link {
@@ -41,6 +40,5 @@
       }}  
   @media screen and (max-width: 425px) {
     .cover .cover__link{
-      
       min-height: 200px;
     }}         

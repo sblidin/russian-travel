@@ -5,6 +5,10 @@
 }
 @media screen and (max-width: 720px) {
   .footer__copyright {
+    font-size: 12px;
+}}
+@media screen and (max-width: 590px) {
+  .footer__copyright {
     font-size: 9px;
 }}
 @media screen and (max-width: 540px) {
