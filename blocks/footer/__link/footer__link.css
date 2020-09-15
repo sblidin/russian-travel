@@ -7,5 +7,8 @@
 }
 @media screen and (max-width: 540px) {
   .footer__link {
-   padding-bottom: 32px;
-}}
+   margin: 0 0 32px 0;
+   }
+  .footer__link:last-child {
+    margin: 0;
+  }}
